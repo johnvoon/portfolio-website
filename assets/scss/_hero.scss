@@ -1,0 +1,79 @@
+.hero {
+  &__image {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url("/assets/images/windmills-medium.jpg");
+    margin-bottom: 40px;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -125px;
+    width: 250px;
+    fill: #fff;
+  }
+
+  &__down-arrow-container {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    a {
+      color: #fff;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__welcome {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+}
+
+.bounce {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0%,
+  90%,
+  100% {
+    transform: translateY(-15px);
+  }
+  20% {
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 576px) {
+  .hero {
+    &__image {
+      background-image: url("/assets/images/windmills.jpg");
+    }
+    &__logo {
+      width: 400px;
+      left: 50%;
+      margin-left: -200px;
+      fill: #fff;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .hero {
+    &__logo {
+      display: none;
+    }
+  }
+}

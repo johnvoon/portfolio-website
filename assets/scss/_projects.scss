@@ -1,0 +1,14 @@
+.projects {
+  img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  &__item {
+    margin-bottom: 20px;
+
+    > a {
+      color: #c0c0c0;
+      margin-right: 10px;
+    }
+  }
+}

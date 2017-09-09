@@ -1,0 +1,47 @@
+.contact {
+  .form-control {
+    margin-bottom: 30px;
+  }
+
+  > form > button {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  > form > button:hover {
+    cursor: pointer;
+  }
+
+  &__input-container {
+    position: relative;
+    label {
+      position: absolute;
+      top: 0;
+      padding: 13px 0 0 13px;
+      pointer-events: none;
+      transition: all 200ms;
+    }
+
+    .form-control {
+      font-weight: $font-weight-bold;
+    }
+
+    .form-control:focus ~ label,
+    .has-value ~ label {
+      color: theme-color("secondary");
+      font-size: 65%;
+      top: -12px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .contact {
+    > form > button {
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

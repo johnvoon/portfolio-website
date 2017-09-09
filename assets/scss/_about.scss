@@ -1,0 +1,15 @@
+.about {
+  &__resume {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+    div {
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+  }
+  &__resume-icon {
+    margin-right: 20px;
+  }
+}
