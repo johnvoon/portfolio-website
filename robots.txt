@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: http://johnvoon.netlify.com/sitemap.xml

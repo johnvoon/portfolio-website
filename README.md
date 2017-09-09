@@ -78,15 +78,11 @@ ________________________________
 
 Having the overall idea of what I wanted on my website, I went on to create wireframes for my website using [Figma](https://www.figma.com/file/LgAEtOr9CCnvRRUgPrWW4c1c/Portfolio-Website).
 
-As a person who enjoys the coding process, it took a discipline to refrain from coding for 2 days before finishing the wireframes.
+As a person who enjoys the coding process, it took discipline to refrain from coding for 2 days before finishing the wireframes.
 
-Creating wireframes in Figma was extremely useful as it was here that I made most of my design decisions through a process of thought, experimentation and seeking advice/opinions from other people.
+Creating wireframes in Figma was extremely useful as I made most of my design decisions here through experimentation and seeking advice/opinions from other people. Once most of these decisions were made, converting the wireframes into code was relatively easy.
 
-Given that most of the decisions were made during this stage, creating wireframes was for me the most difficult part of the project.
-
-Given the majority of visitors would likely be mobile users, it made sense to take a mobile-first approach and design the mobile website first.
-
-After that, I designed for the iPad size and then finally desktop size.
+Given the majority of visitors would likely be mobile users, it made sense to take a mobile-first approach and design the mobile website first before moving on to design for iPad and desktop sizes.
 
 My wireframes looked like this:
 
