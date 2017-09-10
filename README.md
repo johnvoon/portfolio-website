@@ -38,16 +38,16 @@ My website needed to have at least the following sections:
 4. Skills
 5. Contact Form
 
-I thought carefully about the ordering of the sections. Skills initially came before Projects. But I decided showing projects first was more important because projects are where skills are actually applied and put into practice.
+I thought carefully about the ordering of the sections. I initially placed skills before Projects. But I decided showing projects first was more important because projects are where skills are actually applied and put into practice.
 
 [Back to Top](#contents)
 ________________________________
 
 ## <a id="bio-content"></a>Bio Content
 
-I started out by drafting my bio, the idea being this might help me come up with some keywords for searches when putting a mood board together.
+I started out by coming up with a first draft of my bio, the idea being this might help me come up with some keywords for searches when putting a mood board together.
 
-This was the initial draft, which I thought provided a good starting point:
+I came up with this initial draft which I would make changes to later but this provided a good starting point:
 
 > Whether I'm writing legal contracts or writing code, my work ethic and attitude are no different. I'm energetic, I enjoy working with people, I see things to completion and I get stuff done.
 
@@ -62,9 +62,9 @@ ________________________________
 
 The next stage of the creative design process was to collate inspiration in the form of a [Pinterest mood board](https://au.pinterest.com/johnksvoon/portfolio-website-mood-board/).
 
-Doing this helped me think about the overall direction for my website and the overall message I wanted to convey.
+Doing this helped me think about the overall direction for the website and the message I wanted to convey.
 
-In collecting material for the mood board, I browsed [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/) for images that might convey something meaningful about myself, especially my personality and core values. I also included images of typography and colour schemes.
+In collecting material for the mood board, I browsed [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/) for images that might convey something meaningful about myself, especially my **personality and core values**. I also included images of typography and colour schemes.
 
 From drafting my bio, some keywords that came to mind were "build", "building blocks", "energy", "work", "inspiration/inspire", "productivity/productive", "professional", "web developer", which generated some interesting search results.
 
@@ -78,13 +78,13 @@ ________________________________
 
 Having the overall idea of what I wanted on my website, I went on to create wireframes for my website using [Figma](https://www.figma.com/file/LgAEtOr9CCnvRRUgPrWW4c1c/Portfolio-Website).
 
-As a person who enjoys the coding process, it took discipline to refrain from coding for 2 days before finishing the wireframes.
+As a person who enjoys the coding process, it took discipline to not code for 2 days and to wait until I had finished the wireframes.
 
-Creating wireframes in Figma was extremely useful as I made most of my design decisions here through experimentation and seeking advice/opinions from other people. Once most of these decisions were made, converting the wireframes into code was relatively easy.
+Creating wireframes in Figma turned out to be extremely useful as I this provided a great way to experiment and seek advice/opinions from other people. This is where made most of my design decisions. Once I'd made these decisions, converting the wireframes into code was the easy part.
 
 Given the majority of visitors would likely be mobile users, it made sense to take a mobile-first approach and design the mobile website first before moving on to design for iPad and desktop sizes.
 
-My wireframes looked like this:
+These were my wireframes, which can also be accessed from [this link](https://www.figma.com/file/LgAEtOr9CCnvRRUgPrWW4c1c/Portfolio-Website):
 
 ![Wireframes](/assets/images/wireframes.png)
 
@@ -123,11 +123,13 @@ At the end of the day, colour choice is subjective. But I also didn't want to ba
 
 After consideration, I chose this colour scheme:
 
-- <span style="color: #003D5B"><b>Navy Blue</b></span>: Dominant colour for my website. Suited my personality and core values. The words dependable, trustworthy, results-oriented, being able to follow through, etc. resonated with me the most.
-- <span style="color: #DA6D2C"><b>Orange</b></span>: Secondary colour. Complementary to blue and represents friendliness, enthusiasm and creativity.
-- <span style="color: #C0C0C0"><b>Dark gray</b></span>: For certain icons on my website which I didn't want to emphasize.
-- <span style="color: #F1F1F1"><b>Light gray</b></span>: For certain backgrounds on my website which I didn't want to be white.
-- **White**: For signature logo and  navbar items. For enhanced readability, emphasis, professionality and contrast against a dark background.
+![Colour Scheme](/assets/images/colour-scheme.png)
+
+- <span style="color: #003D5B"><b>Navy Blue (#003D5B)</b></span>: Dominant colour for my website. Suited my personality and core values. The words dependable, trustworthy, results-oriented, being able to follow through, etc. resonated with me the most.
+- <span style="color: #DA6D2C"><b>Orange (#DA6D2C)</b></span>: Secondary colour. Complementary to blue and represents friendliness, enthusiasm and creativity.
+- <span style="color: #C0C0C0"><b>Dark gray (#C0C0C0)</b></span>: For certain icons on my website which I didn't want to emphasize.
+- <span style="color: #F1F1F1"><b>Light gray (#F1F1F1)</b></span>: For certain backgrounds on my website which I didn't want to be white.
+- **White (#FFFFFF)**: For signature logo and  navbar items. For enhanced readability, emphasis, professionality and contrast against a dark background.
 
 ### Typography
 
@@ -191,8 +193,6 @@ This is an example of Facebook's bottom tab bar:
 
 It therefore made a lot of sense to place my navigation at the bottom of the screen to be comfortably reached with one-thumb interactions. Also, top navigation would block the section headings.
 
-
-
 ### Hero Section
 
 This is arguably the most important section of the website as it's the first thing people see when they visit.
@@ -239,7 +239,7 @@ Desktop Version:
 
 After much consideration, I chose to feature a picture of windmills as a hero image.
 
-![Windmills](https://static.pexels.com/photos/157039/pexels-photo-157039.jpeg)
+![Windmills](/assets/images/windmills.jpg)
 
 This image was one of the results generated from typing the word "energy" in keyword searches when collating my moodboard.
 
@@ -252,9 +252,11 @@ I also included my handwritten signature in the hero section as a logo to make m
 
 ### About Me Section
 
-As viewer time is limited to 30-60 seconds, I tried to keep this section as short and to the point as possible.
+As viewer time is precious and limited, I spent a lot of time rewriting and shortening the bio to keep this section as short and to the point as possible.
 
-This is also where I displayed a downloadable link to my resume in PDF format. The reason I chose to a downloadable link is so prospective recruiters or employers would be able to pass the resume around if needed.
+This is also where I displayed a downloadable link to my resume in PDF format. I chose a downloadable link so prospective recruiters or employers would be able to pass the resume around if needed.
+
+In summary, I wanted the About Me section to provide a short overview about myself and to sustain the viewer's interest long enough (say 3-5 seconds) to then download and view my resume. The text for this section could be viewed in its entirety using 1 thumb scroll or less on mobile devices. 
 
 ### Projects Section
 
@@ -310,9 +312,7 @@ Another example that makes good use of whitespace in the projects section is thi
 
 ![Jonny MacEachern Projects](/assets/images/jonny-maceachern-projects.png)
 
-For my website, I opted to space out the display of screenshots of my projects and include large images that span the width of the container.
-
-I did this to bring more attention to the screenshots themselves.
+For my website, I opted to space out the display of screenshots of my projects and include large images that span the width of the container. I did this to bring more attention to the screenshots themselves.
 
 I also included short descriptions of each project so visitors could see at a glance my skills and/or technologies I used.
 
@@ -320,7 +320,9 @@ I also included short descriptions of each project so visitors could see at a gl
 
 ### My Skills Section
 
-When listing my skills, I avoided using the actual logos of the technologies, e.g. the HTML, CSS, Ruby, Rails as they might disrupt the overall look of the page.
+When listing my skills, I avoided using the actual logos of the technologies, e.g. the HTML, CSS, Ruby, Rails as they might disrupt the overall look of the page. Also, not all technologies have logos that are easily accessible.
+
+Furthermore, I wanted potential employers to be able to see all my skills at a glance, preferably within the screen of a mobile device.
 
 Instead, I grouped skills into different categories, namely:
 
@@ -336,17 +338,17 @@ I also removed the checkbox icons as they unnecessarily added complexity to the 
 
 ### Contact Form Section
 
-I wanted to keep the contact form section simple.
+I wanted to keep the contact form section short and simple, especially on mobile devices.
 
 I really liked 24 Digital's design of not having labels on top of the input and instead using placeholders as labels.
 
-I liked the upwards floating label text when a user clicks the input fields, which is used a lot in material design.
+I also took some inspiration from Material Design, namely, the upwards floating label text when a user clicks the input fields.
 
 ![Floating Label Text](https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B5ZSepuCX1xOSGx6cEE5TG9BOGM/label_floating.png)
 
-The hollow button which gets filled when hovered over provides a clean design which matches the form input fields.
+The hollow button which gets filled with colour when hovered over provides a clean design which matches the form input fields.
 
-I wanted these elements in my own contact form.
+These are the sorts of design elements I wanted and went on to implement in my own contact form.
 
 [Back to Top](#contents)
 ________________________________
