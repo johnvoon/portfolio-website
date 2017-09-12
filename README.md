@@ -414,6 +414,10 @@ _______________________________
 
 ## <a id="technology-decisions"></a>Technology Decisions
 
+### jQuery
+
+I used jQuery to detect the page scroll points as well as add and remove classes.
+
 ### Bootstrap
 
 I made selective use of Bootstrap components, including the responsive grid layout, buttons and forms.
@@ -442,7 +446,7 @@ For SEO purposes, I ran my HTML through the W3C Markup Validation Service to ens
 
 ### Netlify
 
-Netlify provides a platform for incredibly easy deployment and hosting of static assets.
+Netlify provides a platform for incredibly easy deployment, hosting of static assets and handling of form submissions.
 
 [Back to Top](#contents)
 ________________________________
